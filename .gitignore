@@ -6,7 +6,7 @@
 .*.sw*
 # installed platform-specific binaries
 /bin
-/config
+#/config
 .DS_Store
 .project
 # omit Go vendor directories
@@ -17,5 +17,5 @@ vendor/
 # Dependency directories
 node_modules/
 # Ignore Gradle build output directory
-build
+#build
 package-lock.json
