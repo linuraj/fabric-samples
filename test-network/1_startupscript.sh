@@ -1,6 +1,6 @@
 #!/bin/sh
 sudo ./network.sh down
-sudo docker system prune
+sudo docker system prune -f
 sudo ./network.sh up -ca -s couchdb
 sudo ./network.sh createChannel -c samplechannel
 sudo chmod 666 /var/run/docker.sock
